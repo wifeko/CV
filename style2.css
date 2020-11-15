@@ -1,0 +1,96 @@
+body{
+    background: antiquewhite;
+    width: 780px;
+    margin: auto;
+}
+
+
+.part1
+{
+    float: left;
+    color: black;
+}
+.disposition{
+    width: 780px;
+    margin: auto;
+}
+.part2{
+    float: right;
+    color: #333333;
+}
+.test{
+    text-align: center;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+}
+
+.image
+{
+    width: 230px;
+    height: 233px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+/* Style the top navigation bar */
+.navigation {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.navigation a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Change color on hover */
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.page1
+{
+    width: 780px;
+    margin: auto;
+    font-size: 16px;
+}
+img:hover{
+    filter: grayscale(100%);
+}
+/*************/
+
+.text-typing {
+    padding:20px 30px;
+    font-family:monospace;
+    color: darkgoldenrod;
+
+}
+.text-typing h1 {
+    margin:0px;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 4s steps(22,end) forwards,
+    blink 1s infinite;
+}
+@keyframes typing {
+    0% { width:0% }
+    100% { width:100% }
+}
+@keyframes blink {
+    0%,100% {
+        border-right:2px solid transparent;
+    }
+    50% {
+        border-right:2px solid #222;
+    }
+}
